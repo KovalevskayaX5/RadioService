@@ -9,9 +9,14 @@ public class Radio {
         return currentRadioStation;
     }
 
-    public void setCurrentRadioStation(int newRadioStation) {
-
-        currentRadioStation = newRadioStation;
+    public void setCurrentRadioStationStation(int NewCurrentRadioStation) {
+        if (NewCurrentRadioStation < 0) {
+            return;
+        }
+        if (NewCurrentRadioStation > 9) {
+            return;
+        }
+        currentRadioStation = NewCurrentRadioStation;
     }
 
     public void setCurrentRadioStationOnNumber(int numberRadioStation) {
@@ -52,8 +57,14 @@ public class Radio {
         return currentVolume;
     }
 
-    public void setCurrentVolume(int newCurrentVolume) {
-        currentVolume = newCurrentVolume;
+    public void setCurrentVolume(int NewCurrentVolume) {
+        if (NewCurrentVolume < 0) {
+            return;
+        }
+        if (NewCurrentVolume > 10) {
+            return;
+        }
+        currentVolume = NewCurrentVolume;
     }
 
     public void increaseVolumeMore() {
