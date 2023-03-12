@@ -120,7 +120,7 @@ public class RadioTest {
     @Test
     public void shouldIncreaseRadioStationOnNumber() {
         Radio radio = new Radio();
-        radio.setCurrentRadioStationOnNumber(8);
+        radio.setCurrentRadioStation(8);
 
         radio.increaseRadioStationOnNumber();
 
@@ -134,7 +134,7 @@ public class RadioTest {
     @Test
     public void shouldIncreaseRadioStationOnNumberMore9() {
         Radio radio = new Radio();
-        radio.setCurrentRadioStationOnNumber(10);
+        radio.setCurrentRadioStation(10);
 
         radio.increaseRadioStationOnNumber();
 
@@ -149,7 +149,7 @@ public class RadioTest {
     @Test
     public void shouldIncreaseRadioStationOnNumberEquals9() {
         Radio radio = new Radio();
-        radio.setCurrentRadioStationOnNumber(9);
+        radio.setCurrentRadioStation(9);
 
         radio.increaseRadioStationOnNumber();
 
