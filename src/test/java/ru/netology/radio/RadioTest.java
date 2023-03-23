@@ -144,6 +144,20 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+    @Test
+
+    public void shouldIncreaseRadioStationOnNumberless0() {
+        Radio radio = new Radio();
+        radio.setCurrentRadioStation(-3);
+
+        radio.increaseRadioStationOnNumber();
+
+        int expected = 0;
+        int actual = radio.getCurrentRadioStation();
+
+        Assertions.assertEquals(expected, actual);
+
+    }
 
 
     @Test
