@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Radio" />
+        <module name="HomaWork10.2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HomaWork10.2" target="11" />
+      <module name="hwjava3.2.1" target="11" />
+      <module name="Radio" target="11" />
       <module name="НАЗВАНИЕ-ВАШЕГО-ПРОЕКТА-БЕЗ-ПРОБЕЛОВ" target="11" />
     </bytecodeTargetLevel>
   </component>
