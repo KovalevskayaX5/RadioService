@@ -10,7 +10,6 @@ public class Radio {
     }
 
 
-
     public void setCurrentRadioStation(int currentRadioStation) {
         if (currentRadioStation < 0) {
             return;
@@ -25,7 +24,7 @@ public class Radio {
         if (currentRadioStation != 9) {
             currentRadioStation = currentRadioStation;
 
-                }
+        }
     }
 
     public void increaseNextRadioStation() {
