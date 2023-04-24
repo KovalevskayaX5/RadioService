@@ -22,7 +22,7 @@ public class Radio {
 
     public void increaseRadioStationOnNumber() {
         if (currentRadioStation != 9) {
-            currentRadioStation = currentRadioStation;
+            currentRadioStation = 0;
 
         }
     }
